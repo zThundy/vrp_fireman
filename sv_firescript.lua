@@ -14,8 +14,8 @@ local listaIncendi = {
     [5] = {['x'] = -602.11218261719, ['y'] = -1199.1341552734, ['z'] = 16.550569534302, ['maxFlames'] = 30, ['maxRange'] = 5}
 }
 
-local timerSpawn = math.random(18000, 24000) -- 1800000, 2400000
-local timerDespawn = math.random(20000, 25000) -- 1200000, 1800000
+local timerSpawn = math.random(1800000, 2400000) -- every 30 minutes
+local timerDespawn = math.random(2000000, 2500000) -- every 35 minutes (or so)
 
 Citizen.CreateThread(function()
 	local user_id = vRP.getUserId({source})
