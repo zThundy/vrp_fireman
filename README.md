@@ -17,4 +17,4 @@ local index = math.random(1, 7)
 Hope this is helpful. Bye ;D
 
 don't forget to sub to https://www.twitch.tv/zthundy__
-and to join to https://discord.gg/nYnrAuz
+and to join to https://discord.gg/ZAvKBMt
